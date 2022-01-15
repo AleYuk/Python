@@ -18,15 +18,15 @@ FrozenSet_friends = frozenset(Friends)
 Age_Friends = {"Sergei":30, "Ivan":33, "Kostya":31, "Nikita":33, "Pasha":33, "Valik":33}
 # 10. Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
 print("Task #10")
-print("My_name", My_name, "--", type(My_name))
-print("Age", Age, "--", type(Age))
-print("Weight", Weight, "--", type(Weight))
-print("a_bytes", a_bytes, "--", type(a_bytes))
-print("Friends", Friends, "--", type(Friends))
-print("Tuple_friends", Tuple_friends, "--", type(Tuple_friends))
-print("Set_friends", Set_friends, "--", type(Set_friends))
-print("FrozenSet_friends", FrozenSet_friends, "--", type(FrozenSet_friends))
-print("Age_Friends", Age_Friends, "--", type(Age_Friends))
+print("     Task #1 My_name:            ", type(My_name),"   ", My_name)
+print("     Task #2 Age:                ", type(Age), "   ", Age)
+print("     Task #3 Weight:             ", type(Weight), '  ', Weight)
+print("     Task #4 a_bytes:            ", type(a_bytes), '  ', a_bytes)
+print("     Task #5 Friends:            ", type(Friends), '  ', Friends)
+print("     Task #6 Tuple_friends:      ", type(Tuple_friends), '  ', Tuple_friends)
+print("     Task #7 Set_friends:        ", type(Set_friends), '     ', Set_friends)
+print("     Task #8 FrozenSet_friends:  ", type(FrozenSet_friends), '  ', FrozenSet_friends)
+print("     Task #9 Age_Friends:        ", type(Age_Friends), '      ', Age_Friends)
 # 11. Создать 2 переменные String, создать переменную в которой суммируете эти переменные. Вывести в консоль.
 Wife = "Daria"
 Cat = "Jack"
