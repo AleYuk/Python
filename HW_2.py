@@ -5,32 +5,38 @@ item_2 = 3
 # 3. Создать переменную result_sum в которой вы суммируете item_1 и item_2.
 result_sum = item_1 + item_2
 # 4. Вывести result_sum в консоль.
-print('Summary =', result_sum)
+print('result_sum =', result_sum)
 # 5. Создать переменную result_subtr в которой вы вычитаете большую по значению переменную из меньшей по значению.
-result_subtr = max(item_1,item_2) - min(item_1,item_2)
+result_subtr = max(item_1, item_2) - min(item_1, item_2)
 # 6. Вывести result_subtr в консоль.
-print('Result_subtr =', result_subtr)
+print('result_subtr =', result_subtr)
 # 7. Создать переменную result_multi в которой вы умножаете item_1 на item_2.
 result_multi = item_1 * item_2
 # 8. Вывести result_multi в консоль.
-print('Multiplication =', result_multi)
+print('result_multi =', result_multi)
 # 9. Создать переменную result_exp в которой вы item_1 возводите в степень item_2.
 result_exp = item_1 ** item_2
 # 10.Вывести result_exp в консоль.
-print('Exponentiation =', result_exp)
+print('result_exp =', result_exp)
 # 11. Создать переменную result_m_exp в которой вы item_1 возводите в степень item_2 используя библиотеку math.
 import math
 result_m_exp = math.pow(item_1, item_2)
 # 12. Вывести result_m_exp в консоль.
-print('Exponentiation_math =', result_m_exp)
+print('result_m_exp =', result_m_exp)
 # 13. Создать переменную result_s_root в которой вы найдёте квадратный корень любой из переменной item
 result_s_root = pow(item_1, (1/2))
+# 14. Вывести result_s_root в консоль.
+print('result_s_root', result_s_root)
+# 15. Создать переменную result_m_s_root в которой вы найдёте квадратный корень
+# любой из переменной item используя библиотеку math.
+result_m_s_root = math.sqrt(item_1)
 # 16. Вывести result_m_s_root в консоль.
-print('Root', result_s_root)
-# 17. Создать переменную result_mp_s_root в которой вы найдёте квадратный корень любой из переменной item используя библиотеку math используя метод pow.
+print('result_m_s_root', result_m_s_root)
+# 17. Создать переменную result_mp_s_root в которой вы найдёте квадратный корень
+# любой из переменной item используя библиотеку math используя метод pow.
 result_m_s_root = math.pow(item_1, (1/2))
 # 18. Вывести result_mp_s_root в консоль.
-print('Root_math', result_m_s_root)
+print('result_mp_s_root', result_m_s_root)
 # 19. Присвоить переменной item_1 odd значение
 item_1 = 3
 # 20. Присвоить переменной item_2 even значение
