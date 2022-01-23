@@ -94,35 +94,34 @@ if currency_converter:
     target_currency_amount = 50
 # 31.4 Создать переменную currency_result со значением 0
     currency_result = 0
-else:
-    print('Переменная currency_convertor =', item_3)
 
 # 31.4 Сделать if в котором будет условие: если target_currency равен ‘eur’, то в теле этого if в
 # значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_eur_rate.
 # Результат вывести в консоль (target_currency_amount, eur_item, “=”, currency_result, usd_item)
-if target_currency == 'eur':
-    currency_result = target_currency_amount / usd_eur_rate
-    print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+    if target_currency == 'eur':
+        currency_result = target_currency_amount / usd_eur_rate
+        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
 # 31.5 Сделать elif в котором будет условие: если target_currency равен ‘uah’, то в теле этого if в значении
 # переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_uah_rate.
 # Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)
-elif target_currency == 'uah':
-    currency_result = target_currency_amount / usd_uah_rate
-    print(target_currency_amount, uah_item, '=', currency_result, usd_item)
+    elif target_currency == 'uah':
+        currency_result = target_currency_amount / usd_uah_rate
+        print(target_currency_amount, uah_item, '=', currency_result, usd_item)
 # 31.6 Сделать elif с остальными валютами
-elif target_currency == 'chf':
-    currency_result = target_currency_amount / usd_chf_rate
-    print(target_currency_amount, chf_item, '=', currency_result, usd_item)
-elif target_currency == 'rub':
-    currency_result = target_currency_amount / usd_rub_rate
-    print(target_currency_amount, rub_item, '=', currency_result, usd_item)
-elif target_currency == 'byn':
-    currency_result = target_currency_amount / usd_byn_rate
-    print(target_currency_amount, byn_item, '=', currency_result, usd_item)
+    elif target_currency == 'chf':
+        currency_result = target_currency_amount / usd_chf_rate
+        print(target_currency_amount, chf_item, '=', currency_result, usd_item)
+    elif target_currency == 'rub':
+        currency_result = target_currency_amount / usd_rub_rate
+        print(target_currency_amount, rub_item, '=', currency_result, usd_item)
+    elif target_currency == 'byn':
+        currency_result = target_currency_amount / usd_byn_rate
+        print(target_currency_amount, byn_item, '=', currency_result, usd_item)
 # 31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
+    else:
+        print('Unknow currency')
 else:
-    print('Unknow currency')
-
+    print('Переменная currency_convertor =', item_3)
 
 
 
