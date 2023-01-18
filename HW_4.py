@@ -117,9 +117,9 @@ run = True
 # 	- В теле if поставить continue
 #   13.3 Выйти з if. Вывести в консоль (‘End_iteration =’, item)
 
-for item in range(0, 20):
-    print('Step =', item)
-    if 12 > item > 7:
-        print('If_item =', item)
-        continue
-    print('End_iteration =', item)
+# for item in range(0, 20):
+#     print('Step =', item)
+#     if 12 > item > 7:
+#         print('If_item =', item)
+#         continue
+#     print('End_iteration =', item)
